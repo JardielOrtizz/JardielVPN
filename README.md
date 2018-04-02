@@ -1,1 +1,1 @@
-# JardielVPN
+# badvpn
