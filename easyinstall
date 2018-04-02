@@ -16,15 +16,15 @@ killall badvpn-udpgw
 fi" > /bin/badvpn
 chmod +x /bin/badvpn
 if [ -f /usr/bin/badvpn-udpgw ]; then
-echo -e "\033[1;32mBadvpn Se Esta Instalado\033[0m"
+echo -e "\033[1;32mBadVPN Se Esta Instalado\033[0m"
 rm -rf easyinstall >/dev/null 2>/dev/null
 exit
 else
 clear
 fi
 echo -e "\033[1;31m           Instalador BadVPN\n\033[0m"
-echo -e "Fazendo download do Badvpn"
-wget -O /usr/bin/badvpn-udpgw https://github.com/RicKbrL/badvpn/blob/master/badvpn-udpgw?raw=true -o /dev/null
+echo -e "Descarga De Badvpn"
+wget -O /usr/bin/badvpn-udpgw https://github.com/JardielOrtizz/JardielVPN/blob/master/badvpn-udpgw?raw=true -o /dev/null
 chmod +x /usr/bin/badvpn-udpgw
 clear
 echo -e "\033[1;32m             Instalacion Completa\033[0m" 
